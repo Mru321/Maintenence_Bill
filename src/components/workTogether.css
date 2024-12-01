@@ -1,0 +1,15 @@
+.form{
+    width:175vh;
+    height: 100%;
+    border: 1px solid black;
+}
+.info{
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin:30px;
+}
+.feedback{
+    margin: 30px;
+}

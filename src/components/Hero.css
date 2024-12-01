@@ -1,0 +1,26 @@
+.hero_container{
+    height:100%;
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-weight:bolder;
+    display: flex;
+    justify-content: space-between;
+}
+.div1{
+ width: 90vh;
+}
+.div2{
+    position:relative;
+    right: 0px;
+    height: 45vh;
+    width: 90vh;
+    display: flex;
+    justify-content: center;
+}
+#house{
+    height: 45vh;
+    width: 45vh;
+}

@@ -1,0 +1,15 @@
+.big{
+  position: absolute;
+  left: 0px;
+  top: 240vh;
+  width: 100%;
+}
+.contact_div{
+    display: flex;
+    justify-content: space-between;
+    height:25vh;
+    padding-top: 13vh;
+     
+    background-color: black;
+    color: white;
+}
