@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserData</title>
+    <style>
+        table, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        .body{
+            background-color: rgb(113, 113, 113);
+        }
+        .outer{
+            border: 1px solid black;
+            border-radius: 2%;
+            background-color: rgb(226, 226, 205);
+            height: max-content;
+            width: max-content;
+            padding:0vh 15vh 2.5vh 15vh;
+            margin: auto;
+        }
+        .heading{
+            display: flex;
+            justify-content: center;
+        }
+        .inner{
+            display: block;
+            justify-content: center;
+            margin: auto;
+        
+            height:max-content;
+            width: max-content;
+        }
+        .a{
+            display:flex;
+            justify-content: right;
+            text-decoration: none;
+        }
+        .submit{
+            background-color:burlywood;
+        }
+        .submit:hover{
+            background-color: rgb(113, 113, 113);
+            color: rgb(226, 226, 205);
+        }
+    </style>
+</head>
+
+    {% block body %}
+
+    {% endblock %}
+    
+
+</html>
