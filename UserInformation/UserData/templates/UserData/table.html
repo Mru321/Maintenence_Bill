@@ -1,0 +1,58 @@
+{% extends 'UserData/layout.html' %}
+{% block body %}
+<body>
+    
+
+    <div>
+        <a href="{% url 'signup' %}" class="a">signin</a>
+    </div>
+    <h2>Annual Calendar</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sl no.</th>
+                <th>Event</th>
+                <th>Date</th>
+                <th>Timing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Saraswati Puja</td>
+                <td>02.02.2025</td>
+                <td>10:00 am</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Holika Dahen</td>
+                <td>13.03.2025</td>
+                <td>7:00 pm</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Holi</td>
+                <td>14.03.2025</td>
+                <td>12:00 pm</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Feedback Form</h2>
+    <form action="">
+        <div id="feedback" class="c1">
+            <h3>User Name: </h3>
+            <input type="username" type="text" placeholder="User Name">
+            <h3>Feedback: </h3>
+            <input type="feedback" type="text" placeholder="Feedback">
+            <h3>Submit: </h3>
+            <button>Submit</button>
+
+        </div>
+        <div>
+            
+        </div>
+    </form>
+    
+</body> 
+{% endblock %}
